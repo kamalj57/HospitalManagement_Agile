@@ -1,0 +1,141 @@
+
+
+.patientouter{
+  display: flex;
+ justify-content: center;
+ height: auto;
+ align-items: center;
+ width: 80%;
+ margin-left: 10%;
+ margin-top:5% ;
+
+}
+.patientform {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+    background-color:rgb(246, 246, 170);
+   
+    
+  
+  }
+  
+  .patientmessage {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .patientflex {
+    display: flex;
+    width: 50%;
+    gap: 50px;
+    
+  }
+  
+ 
+
+ .patienticon{
+  position: absolute;
+  right: 100%;
+  top:0;
+ }
+ .patienticon1{
+  position: absolute;
+  right: 100%;
+  top:0;
+ }
+.patientradio{
+  margin-top: 3%;
+  font-weight: 100;
+}
+select{
+  width: 100px;  
+  padding: 8px;
+  position: relative;
+  left: 10px;
+}
+.patientform1 {
+  position: absolute;
+  top: 10px;
+  right:-300px;
+  display: flex;
+  flex-direction: column;
+ gap:10px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  padding-right: 100px;
+}
+.patientform1 label , .patientinput {
+  width: 40%;
+}
+
+.patientform label {
+  position: relative;
+}
+
+.patientform .patientinput {
+  width: 50%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for labels */
+.patientform .patientlabrl {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.patientform .patientflex,
+.patientform .patientflex1,
+.patientform .patientradio,
+.patientform .patientflex5,
+.patientform .patientpayment-method,
+.patientform .patientinsurance-radio,
+.patientform .patientinsurance-policy,
+.patientform .patientward {
+  margin-bottom: 15px;
+}
+.patientradio{
+  display: flex;
+  position: relative
+  ;
+  top: -20px;
+  gap: 20px;
+}
+.patientbutton {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: rgb(30, 176, 255);
+  color: white;
+  border-radius: 4px;
+  width: 30%;
+ }
+ 
+ .patientbutton:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+
+ .patientbutton:active {
+  transform: translate(0em, 0.2em);
+ }
+@media screen and (max-width: 768px) {
+  .patientform1 {
+      position: static;
+      margin: 10px auto;
+  }
+}
